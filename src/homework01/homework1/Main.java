@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         count = 0; // Используем статическую переменн
-        for (int i = 1; i <= 2_000; i++) {
+        for (int i = 1; i <= 2_000_000_000; i++) {
             numberString = Integer.toString(i);
 
             if (i % 21 == 0 && numberString.contains("3")) {

@@ -5,7 +5,7 @@ class Thread2 implements Runnable{
 @Override
     public void run() {
        // count = 0; // Используем статическую переменну
-        for (int i = 1_001; i <= 2_000; i++) {
+        for (int i = 1_000_000_001; i <= 2_000_000_000; i++) {
             numbertoString = Integer.toString(i);
 
             if (i % 21 == 0 && numbertoString.contains("3")) {
